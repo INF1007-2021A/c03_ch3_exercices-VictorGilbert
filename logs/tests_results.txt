@@ -8,7 +8,7 @@ test_to_radians (__main__.TestExercice) ... FAIL
 FAIL: test_average (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 23, in test_average
+  File "c:\Users\zevic\c03_ch3_exercices-VictorGilbert\test_exercice.py", line 23, in test_average
     self.assertListEqual(
 AssertionError: Lists differ: [0.0, 0.0, 0.0] != [4.0, 0.0, -2.3333333333333335]
 
@@ -23,7 +23,7 @@ First differing element 0:
 FAIL: test_to_celsius (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 71, in test_to_celsius
+  File "c:\Users\zevic\c03_ch3_exercices-VictorGilbert\test_exercice.py", line 71, in test_to_celsius
     self.assertListEqual(
 AssertionError: Lists differ: [0.0, 0.0, 0.0] != [-17.77777777777778, -31.666666666666664, 232.77777777777777]
 
@@ -38,7 +38,7 @@ First differing element 0:
 FAIL: test_to_degrees (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 59, in test_to_degrees
+  File "c:\Users\zevic\c03_ch3_exercices-VictorGilbert\test_exercice.py", line 59, in test_to_degrees
     self.assertListEqual(
 AssertionError: Lists differ: [(0.0, 0.0, 0.0), (0.0, 0.0, 0.0), (0.0, 0.[20 chars]0.0)] != [(79.0980174562859, 5.881047377154118, 29.6[197 chars]998)]
 
@@ -56,7 +56,7 @@ First differing element 0:
 FAIL: test_to_farenheit (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 83, in test_to_farenheit
+  File "c:\Users\zevic\c03_ch3_exercices-VictorGilbert\test_exercice.py", line 83, in test_to_farenheit
     self.assertListEqual(
 AssertionError: Lists differ: [0.0, 0.0, 0.0] != [32.0, -13.0, 843.8000000000001]
 
@@ -71,7 +71,7 @@ First differing element 0:
 FAIL: test_to_radians (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 40, in test_to_radians
+  File "c:\Users\zevic\c03_ch3_exercices-VictorGilbert\test_exercice.py", line 40, in test_to_radians
     self.assertListEqual(
 AssertionError: Lists differ: [0.0, 0.0, 0.0, 0.0] != [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748]
 
@@ -83,6 +83,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.002s
+Ran 5 tests in 0.004s
 
 FAILED (failures=5)
